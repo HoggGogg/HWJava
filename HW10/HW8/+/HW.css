@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+
+body {
+    font-family: "Knewave", system-ui;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(89, 220, 155, 1) 22%, rgba(149, 83, 185, 1) 46%, rgba(184, 79, 158, 1) 64%, rgba(227, 73, 126, 1) 87%, rgba(252, 70, 107, 1) 100%);
+}
+.item {
+    padding: 5px;
+    border-bottom: 4px solid #870e28;
+}
+.controls {
+    margin-top: 10px;
+}
+button:disabled {
+    opacity: 0.5;
+}
